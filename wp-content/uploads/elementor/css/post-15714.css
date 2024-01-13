@@ -1,0 +1,57 @@
+.elementor-15714 .elementor-element.elementor-element-6ef5f8d1 > .elementor-widget-container{margin:20px 20px 20px 20px;}/* Start custom CSS for text-editor, class: .elementor-element-6ef5f8d1 */.elementor-15714 .elementor-element.elementor-element-6ef5f8d1 {
+  color: black;
+}/* End custom CSS */
+/* Start custom CSS for section, class: .elementor-element-69e4b030 */.elementor-15714 .elementor-element.elementor-element-69e4b030 {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+}
+.elementor-15714 .elementor-element.elementor-element-69e4b030 .button {
+    display: inline-block;
+    padding: 0.75rem 1.25rem;
+    border-radius: 10rem;
+    color: #fff;
+    font-size: 13px;
+    letter-spacing: 0.15rem;
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+}
+
+.button:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #38acff;
+    transition: all 0.3s;
+    border-radius: 10rem;
+    z-index: -1;
+}
+
+.button:hover:before {
+    width: 100%;
+}
+
+
+
+
+span {
+    display: block;
+    margin-top: 2rem;
+    font-size: 0.7rem;
+    color: #777;
+}
+
+span a {
+    font-size: 0.7rem;
+    color: #999;
+    text-decoration: underline;
+}/* End custom CSS */
